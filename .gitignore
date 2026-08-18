@@ -1,0 +1,21 @@
+# 构建产物
+cmake-build-*/
+build/
+*.exe
+*.o
+*.obj
+*.a
+
+# 运行数据（验证工具产物，不入库）
+data/
+
+# 验证工具（不属于仓库分发）
+tools/
+
+# IDE
+.idea/
+*.iml
+
+# 系统
+.DS_Store
+Thumbs.db
